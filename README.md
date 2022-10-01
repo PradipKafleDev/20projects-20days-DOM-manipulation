@@ -11,7 +11,7 @@ I'm a full stack Javascript Developer...
 
 ## About The Project
 
-✅ This repo consists of 20 project which i have complete in 20days which cover the cover understanding of dom manipulation
+✅ This repo consists of 20 project which i have complete in 20days which cover the core understanding of dom manipulation
 
 Key Features:
 
