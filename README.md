@@ -11,11 +11,11 @@ I'm a full stack Javascript Developer...
 
 ## About The Project
 
-✅ This repo consists of 50 project which i have complete in 20days which cover the cover understanding of dom manipulation
+✅ This repo consists of 20 project which i have complete in 20days which cover the cover understanding of dom manipulation
 
 Key Features:
 
-- Build 50 javascript project using DOM manipulation and Fetch Api.
+- Build 20 javascript project using DOM manipulation and Fetch Api.
 
 ## 👨🏻‍💻 Build using:
 
@@ -30,3 +30,4 @@ Key Features:
 3. Multiplication
 4. Sticky Navbar
 5. Word Counter
+6. Heart Animation
