@@ -1,4 +1,4 @@
-# Hi, I'm Pradip! 👋
+# Hi, I'm Pradip! 👋👋
 
 ## 🚀 About Me
 
