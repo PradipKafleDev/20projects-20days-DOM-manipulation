@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital clock</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+    }
+    .container {
+      width: 100%;
+      max-width: 1024px;
+      background: url("https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: space-around;
+      font-size: 2rem;
+      font-family: "Calculator";
+      font-weight: 900;
+    }
+    h2 {
+      text-align: center;
+      padding: 5px;
+      text-shadow: 2px 2px seagreen;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h2>Digital Clock</h2>
+      <div class="wrapper">
+        <div>
+          <span id="hour">00</span>
+          <span class="text">Hours</span>
+        </div>
+        <div>
+          <span id="minutes">00</span>
+          <span class="text">Minutes</span>
+        </div>
+        <div>
+          <span id="seconds">00</span>
+          <span class="text">Seconds</span>
+        </div>
+        <div>
+          <span id="ampm">PM</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

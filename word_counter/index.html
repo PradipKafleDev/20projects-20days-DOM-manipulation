@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realtime character counter</title>
+  </head>
+  <style>
+    .container {
+      background-color: skyblue;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .wrapper {
+      background-color: white;
+      height: 600px;
+      width: 600px;
+      border-radius: 20px;
+      box-shadow: 4px 8px 16px grey;
+      font-family: cursive;
+      padding: 20px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 1.2rem;
+    }
+    .textarea {
+      resize: none;
+      font-size: 18px;
+      width: 100%;
+      outline: none;
+
+      height: 200px;
+    }
+    .counter-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+    }
+    .total-counter {
+      color: red;
+      font-size: 30px;
+    }
+    .remaining-counter {
+      color: green;
+      font-size: 30px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Real-time Character Counter</h1>
+        <textarea
+          class="textarea"
+          maxlength="50"
+          id="textarea"
+          placeholder="Please write your tex here....!"
+        ></textarea>
+        <div class="counter-container">
+          <p>Total characters: <span class="total-counter"></span></p>
+          <p>Remaining: <span class="remaining-counter"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

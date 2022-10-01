@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication</title>
+  </head>
+  <style>
+    form {
+      background-image: url("https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      width: 30%;
+      margin: auto;
+      padding: 50px;
+      box-shadow: 0px 4px 4px #000;
+      border-radius: 10px;
+    }
+    h1 {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .score {
+      font-size: 1.2rem;
+      text-align: right;
+      margin-bottom: 50px;
+      display: inline-block;
+      padding: 10px 30px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .input {
+      padding: 10px 30px;
+      font-size: 1rem;
+      font-weight: 900;
+    }
+    .btn {
+      padding: 10px 30px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+  <body>
+    <form class="form" id="form">
+      <h4 class="score" id="score">score:0</h4>
+      <h1 id="question">What is 1 Multiply by 1?</h1>
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter Your answer"
+        autofocus
+        autocomplete="off"
+      />
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
