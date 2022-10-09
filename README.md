@@ -31,3 +31,4 @@ Key Features:
 4. Sticky Navbar
 5. Word Counter
 6. Heart Animation
+7. Analog Clock
